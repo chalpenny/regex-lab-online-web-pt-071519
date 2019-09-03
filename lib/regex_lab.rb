@@ -1,3 +1,5 @@
+require "pry"
+
 def starts_with_a_vowel?(word)
   word_array = word.split("")
   if word_array[0].match(/[aeiou]/)
@@ -19,5 +21,6 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
+
 
 end
