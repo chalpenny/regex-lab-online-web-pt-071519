@@ -2,7 +2,6 @@ require 'pry'
 
 def starts_with_a_vowel?(word)
   word_array = word.split("")
-  binding.pry
   if word_array[0].match(/[aeiouAEIOU]\w+/)
     true
   else false
